@@ -110,6 +110,6 @@ app.use((request, response) => {
 
 
 
-  const PORT = 3002;
+  const PORT = process.env.PORT || 3002;
   app.listen(PORT, () => console.log("hello wordddddd from NODE JSS OMGG!!!!"));
-  
+                
